@@ -17,3 +17,10 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+p {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
