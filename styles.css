@@ -1,19 +1,29 @@
 body {
-    background-color: rgb(255, 255, 165);
+  background-color: rgb(246, 179, 223);
 }
 
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
+.image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
 }
 
 .link-button {
-    text-decoration: none;
-    color: black;
-    border: 1px solid rgb(178, 98, 252);
-    background-color: rgb(210, 165, 252)
-    padding: 8px;
-    border-radius: 8px;
-    box-shadow: 2px 3px #888888;
+  text-decoration: none;
+  color: black;
+  border: 1px solid rgb(178, 98, 252);
+  background-color: rgb(210, 165, 252);
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 2px 3px #888888;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
